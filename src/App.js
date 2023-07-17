@@ -7,6 +7,7 @@ import Ex5 from './component/Ex5'
 import Ex6 from './component/Ex6'
 import Ex7 from './component/Ex7'
 import Ex8 from './component/Ex8'
+import Ex9 from './component/Ex9'
 
 /* react hook => method -> dedicated to functional components, function, const arrow, const local*/
 function App(props) {
@@ -21,8 +22,9 @@ function App(props) {
          <Ex4 /> 
          <Ex5 />
          <Ex6 />
-         <Ex7 />*/}
-         <Ex8 />
+         <Ex7 />
+         <Ex8 />*/}
+         <Ex9 itemPerPage={50} />
         </div>
       </div>
     </div>
